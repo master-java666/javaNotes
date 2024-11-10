@@ -1,0 +1,18 @@
+格式：
+修饰符   返回值类型   方法名(形参列表){
+方法体代码(需要执行的代码功能)
+return 返回值；
+}
+eg：
+public class Method1 {
+    public static void main(String[] args) {
+
+        int rs = sum(10,12);
+        System.out.println("和是:" + rs);
+
+    }
+    public static int sum(int a,int b){
+        int c = a+b;
+        return c;
+    }
+}

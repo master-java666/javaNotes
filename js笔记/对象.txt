@@ -1,0 +1,58 @@
+Array:在js中用于定义数组
+定义：
+方法一:var 变量名 = new Array(元素列表)； var arr = new Array(1,2,3,4);
+方法二:var 变量名 = [元素列表];    var arr = [1,2,3,4];
+访问:
+arr[索引] = 值； arr[10] = "hello";	 console.log(arr [0]);
+ //for循环是遍历所有的元素
+        // for (let i =0;i<arr.length;i++) {
+        //    console.log(arr[i]);
+           
+        // }
+
+        // console.log("====================");
+        
+        // //forEach:遍历数组中有值的元素
+        // arr.forEach(function(e) {
+        //     console.log(e);
+        
+        // })
+        
+        // //ES6 箭头函数：(...)=>(...)  作用简化函数的定义
+        // arr.forEach((e) => {
+        //     console.log((e));
+            
+        // })
+
+        //添加元素
+        arr.push(7,8,9);
+        console.log(arr);
+        //splice :删除元素
+        arr.splice(2,2);//第一个2是指数组中第二个位置第二个2是指删除的数量
+
+String
+String字符串的创建方法
+一：var 变量名 = new String ("...");		var str = new String("Hello");
+二：var 变量名 = ("...");		var str ="Hello";
+  //创建字符串
+        var str = "HelloString";
+        //length (查询字符串的长度)
+        console.log(str.length);
+        //charAt(用来获取指定位置的字符)
+        console.log(str.charAt(3));
+        
+        //indexOf(检索字符)
+        console.log(str.indexOf("lo"));
+        
+        //trim(去除字符两边的空格)
+        var s = str.trim();
+        console.log(s);
+        
+        //substring(start,end)含头不含尾(提取字符串两个指定的索引号之间的字符)
+        console.log(str.substring(0,5));
+
+
+
+JSON
+BOM
+DOM

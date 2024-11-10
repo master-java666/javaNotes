@@ -1,0 +1,8 @@
+通过typeof来判断数据类型
+alert (typeof 3);
+alert (typeof 3.14);
+alert (typeof "A");
+alert (typeof "Hello");
+alert (typeof true);
+alert (typeof felse);
+alert (typeof null);

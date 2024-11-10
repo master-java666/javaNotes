@@ -1,0 +1,25 @@
+注意事项：方法不需要返回数据返回值类型必须申明void（无返回值申明），此时方法内部不可以使用return返回数据。
+public class Method2 {
+    public static void main(String[] args){
+        printHelloWorld();
+        System.out.println("-----------------------------------");
+    printHelloWorld();
+        System.out.println("-----------------------------------");
+        printHelloWorld1(20);
+    }/*
+    无参数无返回值方法
+    */
+    public static void printHelloWorld(){
+        for (int i = 1; i <=3 ; i++) {
+            System.out.println("HelloWorld");
+        }
+    }
+    /*
+    有参数无返回值方法
+    */
+    public static void printHelloWorld1(int n){
+        for (int i = 1; i <=n ; i++) {
+            System.out.println("HelloWorld");
+        }
+    }
+}

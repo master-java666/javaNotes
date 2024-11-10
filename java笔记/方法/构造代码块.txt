@@ -1,0 +1,12 @@
+特点
+在构造方法前执行
+ {
+            System.out.println("构造代码块");
+        }
+        public Student2(){
+            System.out.println("无参");
+        }
+        public Student2(int a){
+
+            System.out.println("有参");
+        }

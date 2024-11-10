@@ -1,0 +1,20 @@
+用function来定义函数
+//定义函数
+    function add(a,b){
+        return a + b;
+    }
+
+//函数调用
+var result = add(20,30);
+alert (result);
+
+
+//定义方法二
+var functionName = function(参数1,参数2...){
+    //需要执行的代码
+}
+具体如下
+var add = function(a,b){
+    return a+b;
+}
+var result = add(50,60)
